@@ -44,5 +44,10 @@ import boto3
 s3 = boto3.resource('s3')
 s3.create_bucket('your_bucket_name')
 
-# if your region is different than us-east-1, you need to specify the region when creating the bucket like in the image
+# if your region is different than us-east-1,
+# you need to specify the region when creating the bucket like in the image
+
+# s3.create_bucket(Bucket='your_bucket_name', 
+# CreateBucketConfiguration={'LocationConstraint': 'us-west-1'})
+# available regions https://docs.aws.amazon.com/general/latest/gr/s3.html
 ```
