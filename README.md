@@ -29,3 +29,20 @@ Create a new file in ~/.aws/config` and set up the default region.
 
 ![aws_access_4](./assets/aws_access_4.png)
 
+
+### Using boto3
+
+Let's try creating a bucket using the boto3 client and your new access key ID and Secret Key.
+
+![aws_access_5](./assets/aws_access_5.png)
+
+Open a jupyter notebook or a python console from terminal.
+
+```
+import boto3
+
+s3 = boto3.resource('s3')
+s3.create_bucket('your_bucket_name')
+
+# if your region is different than us-east-1, you need to specify the region when creating the bucket like in the image
+```
