@@ -17,11 +17,11 @@ Create a new access key by pressing the button `Create New Access Key`. A keypai
 
 ![aws_access_2](./assets/aws_access_2.png)
 
-Make sure to save your Access Key ID and Secret Access Key somewhere save, or download to save it. This will be the only time you'll be seeing it.
+Make sure to save your Access Key ID and Secret Access Key somewhere safe, or download to save it. This will be the only time you'll be seeing it.
 
 ### Setting up the environment
 
-Create a new file in `~/.aws/credential` on terminal and paste the details.
+Create a new file in `~/.aws/credential` on the terminal and paste the details.
 
 ![aws_access_3](./assets/aws_access_3.png)
 
@@ -36,7 +36,7 @@ Let's try creating a bucket using the boto3 client and your new access key ID an
 
 ![aws_access_5](./assets/aws_access_5.png)
 
-Open a jupyter notebook or a python console from terminal.
+Open a jupyter notebook or a python console from the terminal.
 
 ```
 import boto3
