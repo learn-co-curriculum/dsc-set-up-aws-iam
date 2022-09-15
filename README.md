@@ -11,11 +11,11 @@
 
 Log into your AWS Console, and select the top right corner, then go to Security Credentials. You'll see the page below.
 
-![aws_access_1](./assets/aws_access_1.png)
+<img src="https://raw.githubusercontent.com/learn-co-curriculum/dsc-set-up-aws-iam/main/assets/aws_access_1.png">
 
 Create a new access key by pressing the button `Create New Access Key`. A keypair will be automatically generated. 
 
-![aws_access_2](./assets/aws_access_2.png)
+<img src="https://raw.githubusercontent.com/learn-co-curriculum/dsc-set-up-aws-iam/main/assets/aws_access_2.png">
 
 Make sure to save your Access Key ID and Secret Access Key somewhere safe, or download to save it. This will be the only time you'll be seeing it.
 
@@ -23,18 +23,17 @@ Make sure to save your Access Key ID and Secret Access Key somewhere safe, or do
 
 Create a new file in `~/.aws/credential` on the terminal and paste the details.
 
-![aws_access_3](./assets/aws_access_3.png)
+<img src="https://raw.githubusercontent.com/learn-co-curriculum/dsc-set-up-aws-iam/main/assets/aws_access_3.png">
 
 Create a new file in ~/.aws/config` and set up the default region.
 
-![aws_access_4](./assets/aws_access_4.png)
-
+<img src="https://raw.githubusercontent.com/learn-co-curriculum/dsc-set-up-aws-iam/main/assets/aws_access_4.png">
 
 ### Using boto3
 
 Let's try creating a bucket using the boto3 client and your new access key ID and Secret Key.
 
-![aws_access_5](./assets/aws_access_5.png)
+<img src="https://raw.githubusercontent.com/learn-co-curriculum/dsc-set-up-aws-iam/main/assets/aws_access_5.png">
 
 Open a jupyter notebook or a python console from the terminal.
 
