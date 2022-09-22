@@ -7,6 +7,12 @@
 - An account to AWS Console
 
 
+### Initial Setup
+
+Go to [AWS](https://aws.amazon.com) and set up your account. Deloitte folks, please do NOT use your company email address when creating your account.
+
+You will be asked to enter credit card information. Please use a personal card. (Don't worry; you won't be charged.)
+
 ### Getting the AWS Access Key from IAM
 
 Log into your AWS Console, and select the top right corner, then go to Security Credentials. You'll see the page below.
