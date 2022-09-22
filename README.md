@@ -9,7 +9,7 @@
 
 ### Initial Setup
 
-Go to [AWS](https://aws.amazon.com) and set up your account. Deloitte folks, please do NOT use your company email address when creating your account.
+Go to [AWS](https://aws.amazon.com) and set up your account. Flatiron Enterprise customers, please do NOT use your company email address when creating your account.
 
 You will be asked to enter credit card information. Please use a personal card. (Don't worry; you won't be charged.)
 
