@@ -98,7 +98,7 @@ Let's try creating a bucket using the boto3 client and your new access key ID an
 
 ##### {Julian note: maybe this should be it's own assignment somehow?}
 
-Now let's test your set up! We're going to try to create an empty bucket from a jupyter notebook.  Go ahead and navigate to Open a jupyter notebook from the terminal, and run these commands in the cell. 
+Now let's test your set up! We're going to try to create an empty bucket from a jupyter notebook.  Go ahead and navigate to a logical location in your terminal and open a new jupyter notebook. Run these commands in the first cell. 
 
 ```
 # If you haven't already, you may need to uncomment and run the following line. You should only need to do the  pip install once.
