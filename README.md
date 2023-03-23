@@ -75,7 +75,8 @@ And again, open it in an editor
 
 Once the file opens, add this:
 
-```region = us-west-2
+```
+region = us-west-2
 output = json
 ```
 
@@ -100,7 +101,7 @@ Let's try creating a bucket using the boto3 client and your new access key ID an
 Now let's test your set up! We're going to try to create an empty bucket from a jupyter notebook.  Go ahead and navigate to Open a jupyter notebook from the terminal, and run these commands in the cell. 
 
 ```
-# if you haven't already, you may need to uncomment and run the following line. You should only need to do the  pip install once.
+# If you haven't already, you may need to uncomment and run the following line. You should only need to do the  pip install once.
 #!pip install boto3
 
 import boto3
