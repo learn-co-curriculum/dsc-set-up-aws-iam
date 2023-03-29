@@ -92,11 +92,8 @@ If everything has gone well, you shouldn't need to return to these files for thi
 
 Let's try creating a bucket using the boto3 client and your new access key ID and Secret Key.
 
-##### {Julian note: I think this image is too confusing/intimidating for students. I recommend cutting it.}
-
 <img src="https://raw.githubusercontent.com/learn-co-curriculum/dsc-set-up-aws-iam/main/assets/aws_access_5.png">
 
-##### {Julian note: maybe this should be it's own assignment somehow?}
 
 Now let's test your set up! We're going to try to create an empty bucket from a jupyter notebook.  Go ahead and navigate to a logical location in your terminal and open a new jupyter notebook. Run these commands in the first cell. 
 
