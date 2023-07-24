@@ -25,13 +25,13 @@ Create a new access key by pressing the button `Create New Access Key` as seen b
 
 This will generate a keypair for you automatically. If you are interested in cryptography understanding how a keypair works is critical, but for our purposes we can think of a keypair like a password that is on one hand *much* harder to crack than the usual 'password123' type of password. The downside is that it is just a jumble of pseudo-random information that is much harder for humans to remember. So we'll copy and paste it into a secure location, and try to not rely on these keys for too much, because if someone is able to compromise your computer, they'd also get access to whatever access level you grant these keys in your AWS account. This is part of why we won't be putting 'real' data into any of our AWS practice tasks!
 
-Copy and paste the keys into a safe place on your computer. Alternitively, you can press the download button to save the two keys as a csv file. This will be the only time you'll be seeing them. 
+Copy and paste the keys into a safe place on your computer. Alternatively, you can press the download button to save the two keys as a csv file. This will be the only time you'll be seeing them. 
 
 ### Creating a credentials folder
 
 Now that we have our keys, we need a place to put them. Most AWS tools will be looking for a folder at the user level titled '.aws' and, more specifically for our purposes, a folder called 'credential' within that. 
 
-However, it is **very important** that this folder be in the right place, otherwise your programs will go looking for their 'keys' to the AWS tools, and not be able to find them. So! Please follow these steps **very carfully**, as they will not work if you put the wrong commands into the terminal if the terminal is operating in the wrong folder.  
+However, it is **very important** that this folder be in the right place, otherwise your programs will go looking for their 'keys' to the AWS tools, and not be able to find them. So! Please follow these steps **very carefully**, as they will not work if you put the wrong commands into the terminal if the terminal is operating in the wrong folder.  
 
 First, we must open our terminal (gitbash) and navigate to the 'home' address AWS will be looking for by using this command:
 
