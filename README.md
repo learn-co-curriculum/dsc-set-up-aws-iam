@@ -47,11 +47,11 @@ Remember that a folder that starts with a '.' is hidden by default. This means t
 
 Now we need to create a new file in '.aws' called 'credential'.
 
-```touch credential```
+```touch credentials```
 
 And having done that, you'll need to open the credential file. You can just use Windows Notepad for this:
 
-```notepad credential```
+```notepad credentials```
 
 And here you'll need to copy in the  keys in the format shown below:
 
