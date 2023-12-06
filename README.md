@@ -95,7 +95,7 @@ Let's try creating a bucket using the boto3 client and your new access key ID an
 <img src="https://raw.githubusercontent.com/learn-co-curriculum/dsc-set-up-aws-iam/main/assets/aws_access_5.png">
 
 
-Now let's test your set up! We're going to try to create an empty bucket from a jupyter notebook.  Go ahead and navigate to a logical location in your terminal and open a new jupyter notebook. Run these commands in the first cell. 
+Now let's test your set up! We're going to try to create an empty bucket from a jupyter notebook.  Go ahead and navigate to a logical location in your terminal and open a new jupyter notebook. Run these commands in the first cell. N.B.  AWS bucket names can consist only of lowercase letters, numbers, dots, and hyphens; a suggestion here is 'Bucket='test-bucket-<random_number_or_word>'.
 
 ```
 # If you haven't already, you may need to uncomment and run the following line. You should only need to do the  pip install once.
